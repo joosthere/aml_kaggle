@@ -8,6 +8,25 @@ All the required packages can be installed with the following command:
 
 ```pip install -r requirements.txt```
 
+## Structure
+
+```
+.
+|-- data, all the Kaggle data files
+	|-- label_map.txt, maps classes
+	|-- sample.csv, contains sample of train_onelabel.csv
+	|-- train_onelabel.csv
+	|-- output, contains all prediction files
+		|-- *.csv
+	|-- test_images, contains all the test images
+		|-- *.jpg
+	|-- train_images, contains all the train images
+		|-- *.jpg, corresponds with the train_onelabel.csv
+|-- notebooks
+	|-- explore.ipynb
+	|-- preprocess.ipynb
+```
+
 ## Goal
 
 What we need to do:
@@ -50,3 +69,5 @@ image,class
 ...
 etc
 ```
+
+Prediction `*.csv` files should be stored in `./data/output/`.
