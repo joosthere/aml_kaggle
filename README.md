@@ -2,6 +2,23 @@
 
 Deadline for the project is December 11<sup>th</sup> 2017. 
 
+## Required packages
+
+All the required packages can be installed with the following command:
+
+```pip install -r requirements.txt```
+
+## Goal
+
+What we need to do:
+
+* Choose one of the projects
+* Load and preprocess data
+* Extract features
+* Train models
+* Evaluate models
+* Find and implement improvements
+
 ## The project
 
 ### Predicting Ocean Health [(link)](https://www.kaggle.com/c/1stdsbowl-in-class)
@@ -18,50 +35,7 @@ The National Data Science Bowl challenges you to build an algorithm to automate 
 
 Submissions are evaluated using the category accuracy. Each image has been labeled with one true class. For each image, you must submit your predicted class. The formula is then:
 
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-  <mi>C</mi>
-  <mi>a</mi>
-  <mi>t</mi>
-  <mi>e</mi>
-  <mi>g</mi>
-  <mi>o</mi>
-  <mi>r</mi>
-  <mi>y</mi>
-  <mi>A</mi>
-  <mi>c</mi>
-  <mi>c</mi>
-  <mi>u</mi>
-  <mi>r</mi>
-  <mi>a</mi>
-  <mi>c</mi>
-  <mi>y</mi>
-  <mo>=</mo>
-  <mfrac>
-    <mn>1</mn>
-    <mi>N</mi>
-  </mfrac>
-  <munder>
-    <mo>&#x2211;<!-- ∑ --></mo>
-    <mrow class="MJX-TeXAtom-ORD">
-      <msub>
-        <mi>y</mi>
-        <mi>i</mi>
-      </msub>
-      <mo>=</mo>
-      <msub>
-        <mrow class="MJX-TeXAtom-ORD">
-          <mover>
-            <mi>y</mi>
-            <mo stretchy="false">&#x005E;<!-- ^ --></mo>
-          </mover>
-        </mrow>
-        <mi>i</mi>
-      </msub>
-    </mrow>
-  </munder>
-  <mn>1</mn>
-  <mo>,</mo>
-</math>
+![accuracy](http://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFFFF00&chl=CategoryAccuracy=\frac{1}{N}\sum_{y_i=\hat{y}_i}_{}1)
 
 where N is the number of images in the test set, yiyi is the true label for the i-th image, and ŷ iy^i is the predicted label.
 
@@ -76,20 +50,3 @@ image,class
 ...
 etc
 ```
-
-## Goal
-
-What we need to do:
-
-* Choose one of the projects
-* Load and preprocess data
-* Extract features
-* Train models
-* Evaluate models
-* Find and implement improvements
-
-## Required packages
-
-All the required packages can be installed with the following command:
-
-```pip install -r requirements.txt```
