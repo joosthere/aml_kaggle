@@ -35,7 +35,7 @@ The National Data Science Bowl challenges you to build an algorithm to automate 
 
 Submissions are evaluated using the category accuracy. Each image has been labeled with one true class. For each image, you must submit your predicted class. The formula is then:
 
-![accuracy](http://chart.apis.google.com/chart?cht=tx&chf=bg,s,FFFFFF00&chl=CategoryAccuracy=\frac{1}{N}\sum_{y_i=\hat{y}_i}_{}1)
+![accuracy](https://latex.codecogs.com/gif.latex?CategoryAccuracy%20%3D%20%5Cfrac%7B1%7D%7BN%7D%20%5Csum_%7By_i%3D%5Chat%7By%7D_i%7D%5E%7Bn%7D1 "Category Accuracy Equation")
 
 where N is the number of images in the test set, yiyi is the true label for the i-th image, and ŷ iy^i is the predicted label.
 
