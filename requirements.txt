@@ -4,6 +4,5 @@ jupyter
 sklearn
 matplotlib
 tensorflow
-keras
-torchvision
 pillow
+scikit-image
