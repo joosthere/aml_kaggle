@@ -4,9 +4,12 @@ Deadline for the project is December 11<sup>th</sup> 2017.
 
 ## Required packages
 
-All the required packages can be installed with the following command:
+All the required packages can be installed with either of the following commands:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+```
 
 ## Structure
 
@@ -31,8 +34,11 @@ All the required packages can be installed with the following command:
 
 What we need to do:
 
-* Choose one of the projects
 * Load and preprocess data
+	* Explore structure
+	* How to account for:
+		* Shape of images (M,N)
+		* Rotation of images
 * Extract features
 * Train models
 * Evaluate models

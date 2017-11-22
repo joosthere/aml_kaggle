@@ -6,3 +6,4 @@ matplotlib
 tensorflow
 keras
 torchvision
+pillow
