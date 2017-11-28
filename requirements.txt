@@ -6,3 +6,5 @@ matplotlib
 tensorflow
 pillow
 scikit-image
+h5py
+keras
