@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 .
 |-- data, all the Kaggle data files
 	|-- images, contains any project related images
-			|-- ...
+		|-- ...
 	|-- label_map.txt, maps classes
 	|-- sample.csv, contains sample of train_onelabel.csv
 	|-- train_onelabel.csv
@@ -32,10 +32,10 @@ pip3 install -r requirements.txt
 	|-- train_images, contains all the train images
 		|-- *.jpg, corresponds with the train_onelabel.csv
 	|-- output
-			|-- models, contains all the Keras Models
-				|-- *.h5
-			|-- predictions, contains all prediction files
-				|-- *.csv
+		|-- models, contains all the Keras Models
+			|-- *.h5
+		|-- predictions, contains all prediction files
+			|-- *.csv
 |-- notebooks
 	|-- explore.ipynb (deprecated)
 	|-- load_and_train.ipynb
