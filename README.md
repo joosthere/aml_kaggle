@@ -45,7 +45,7 @@ pip3 install -r requirements.txt
 	|-- Predictions.ipynb (deprecated)
 ```
 
-For the sake of file size the Keras model files are not included in this repository.
+For the sake of file size the Keras model files are not included in this repository. Please do note that the image folders are empty! Meaning that the train and test images are not present in this repository. This is, again, because of file sizes. However, the images are not large themselves, but they are with over 30.000 images in total.
 
 ## Notebooks
 
