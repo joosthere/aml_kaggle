@@ -37,12 +37,13 @@ pip3 install -r requirements.txt
 		|-- predictions, contains all prediction files
 			|-- *.csv
 |-- notebooks
-	|-- explore.ipynb (deprecated)
+	|-- deprecated notebooks
+		|-- explore.ipynb
+		|-- preprocess.ipynb
+		|-- Predictions.ipynb
 	|-- load_and_train.ipynb
 	|-- load_and_predict.ipynb
 	|-- load_and_predict_multiple.ipynb
-	|-- preprocess.ipynb (deprecated)
-	|-- Predictions.ipynb (deprecated)
 ```
 
 For the sake of file size the Keras model files are not included in this repository. Please do note that the image folders are empty! Meaning that the train and test images are not present in this repository. This is, again, because of file sizes. However, the images are not large themselves, but they are with over 30.000 images in total.
